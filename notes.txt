@@ -2,6 +2,3 @@
 https://www.codecademy.com/learn/learn-python
 https://automatetheboringstuff.com/chapter0/
 https://wiki.python.org/moin/BeginnersGuide/NonProgrammers
-Slides: https://www.slideshare.net/AmazonWebServices/tag/emea-awsomeday-online
- 
-Videos: https://onlinexperiences.com/scripts/Server.nxp?LASCmd=AI:1;F:US!100&PreviousLoginCount=2&ForceProfileToBeFilledOut=0&DisplayItem=NULL&ShowKey=47218&ShowFrameFormatOverride=NULL&RandomValue=1522204664906
