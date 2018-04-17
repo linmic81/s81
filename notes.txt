@@ -5,3 +5,5 @@ https://wiki.python.org/moin/BeginnersGuide/NonProgrammers
 https://apexapps.oracle.com/pls/apex/f?p=44785:149:0::::P149_EVENT_ID,P149_PREV_PAGE:5738,147
 http://129.146.123.254/ny
 while true; do date; ps auxf | awk '{if($8=="D") print $0;}'; sleep 1; done
+https://antognini.ch/papers/BloomFilters20080620.pdf
+
