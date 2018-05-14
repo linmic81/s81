@@ -6,4 +6,4 @@ https://apexapps.oracle.com/pls/apex/f?p=44785:149:0::::P149_EVENT_ID,P149_PREV_
 http://129.146.123.254/ny
 while true; do date; ps auxf | awk '{if($8=="D") print $0;}'; sleep 1; done
 https://docs.python.org/3/tutorial/modules.html
-
+https://vmwareeducation.webex.com/vmwareeducation/k2/j.php?MTID=t394d12265239538af33842269ce3ed16 
