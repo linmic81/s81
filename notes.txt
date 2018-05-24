@@ -7,3 +7,4 @@ http://129.146.123.254/ny
 while true; do date; ps auxf | awk '{if($8=="D") print $0;}'; sleep 1; done
 https://docs.python.org/3/tutorial/modules.html
 https://evantage.gilmoreglobal.com/#/user/forgot?token=b5ed1f1eb57bee535948909bb364e684bd43f817
+https://stackoverflow.com/questions/35684400/how-to-use-python-3-5-1-with-a-mysql-database
