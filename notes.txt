@@ -8,3 +8,4 @@ while true; do date; ps auxf | awk '{if($8=="D") print $0;}'; sleep 1; done
 https://docs.python.org/3/tutorial/modules.html
 https://evantage.gilmoreglobal.com/#/user/forgot?token=b5ed1f1eb57bee535948909bb364e684bd43f817
 https://stackoverflow.com/questions/35684400/how-to-use-python-3-5-1-with-a-mysql-database
+https://event.on24.com/wcc/r/1677399/1AE4D52CE7FF016ED225B2AC7BA59026?mode=login&email=michael.y.lin@jpmchase.com
