@@ -1,0 +1,7 @@
+The ip helper-address command configures the device as a DHCP relay agent.
+The DHCP relay agent forwards DHCP requests and replies between clients and servers 
+when they are not on the same physical subnet.
+
+DHCP requests are broadcasts.  Routers (Layer 3 devices) suppress broadcast traffic.
+So if the DHCP server resides in a remote network, a DHCP relay agent is required 
+to handle the requests beyond the local subnet.
