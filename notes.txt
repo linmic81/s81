@@ -9,7 +9,7 @@ https://docs.python.org/3/tutorial/modules.html
 https://evantage.gilmoreglobal.com/#/user/forgot?token=b5ed1f1eb57bee535948909bb364e684bd43f817
 https://stackoverflow.com/questions/35684400/how-to-use-python-3-5-1-with-a-mysql-database
 https://event.on24.com/wcc/r/1677399/1AE4D52CE7FF016ED225B2AC7BA59026?mode=login&email=michael.y.lin@jpmchase.com
-
+c4e6c199246f4e3a894a76f0a2b87bb4?sessionId=1789242261586620440&participantId=400135
 Below are some books I've read that have helped me to better understand Agile, Lean, and the thinking underlying them.
 •	“Out of the Crisis” by W. Edwards Deming
 •	“The Goal: A Process of Ongoing Improvement” by Eliyahu M. Goldratt and Jeff Cox
@@ -23,7 +23,7 @@ Below are some books I've read that have helped me to better understand Agile, L
 •	“Disciplined Entrepreneurship: 24 Steps to a Successful Startup” by Bill Aulet
 
 
-
+https://handouts-live.s3.amazonaws.com
 
 
 In the past month I’ve read these books:
