@@ -37,6 +37,35 @@ I intend to read in the near future:
 •	“Practical Monitoring: Effective Strategies for the Real World” by Mike Julian
 •	“Building Evolutionary Architectures: Support Constant Change” by Neal Ford and Rebecca Parsons
 
+
+import sys, json, urllib2, base64, requests, os, re
+from requests.auth import HTTPBasicAuth
+
+fir = "https://fir-server/api/incidents"
+
+headers = {
+'Authorization' : 'Token thisisyourapitoken',
+'Content-type' : 'application/json'
+}
+
+data = {
+
+"actor" : "3",
+"category": "3",
+"confidentiality": "1",
+"description": "This is a test ticket created by the API. ",
+"detection": "2",
+"plan" : "8",
+"severity": "2",
+"subject": "New Ticket"
+
+}
+
+response = requests.post(fir,
+headers=headers, data=json.dumps(data), verify=False)
+print response.content
+
+
 1onHrpnbajmrlKYmrwPSvc6y3GS3bEF5I
 https://cloud.scorm.com/content/courses/86DIHRF2X7/IntroductiontoerwinDataModeler6a4f2a8d-de8f-4554-a598-9f53fafef902/0/Introduction%20to%20erwin%20Data%20Modeler/Introduction%20to%20erwin%20Data%20Modeler.html
 https://cloud.scorm.com/sc/InvitationConfirmEmail?publicInvitationId=1acbe466-a291-45cf-800c-8bb72ff0a49c
