@@ -1,0 +1,7 @@
+
+import config
+
+# disply module path location
+>>> print config.__file__
+config.pyc
+
