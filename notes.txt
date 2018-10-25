@@ -37,7 +37,7 @@ I intend to read in the near future:
 •	“Practical Monitoring: Effective Strategies for the Real World” by Mike Julian
 •	“Building Evolutionary Architectures: Support Constant Change” by Neal Ford and Rebecca Parsons
 
-
+# https://meet644221081.adobeconnect.com/r6q7k8rvnv85/
 import sys, json, urllib2, base64, requests, os, re
 from requests.auth import HTTPBasicAuth
 
