@@ -1,0 +1,101 @@
+<div id="supportedPlatformsChart">
+        <span class="descriptionSubSectionTitle"> Verified on the following platforms</span>
+        <table cellspacing="0" cellpadding="0">
+                <tbody><tr class="oddRow">
+                    <td>
+                        Windows 10
+                    </td>
+                    <td>
+                        No
+                    </td>
+                </tr>
+                <tr class="evenRow">
+                    <td>
+                        Windows Server 2012
+                    </td>
+                    <td>
+                        No
+                    </td>
+                </tr>
+                <tr class="oddRow">
+                    <td>
+                        Windows Server 2012 R2
+                    </td>
+                    <td>
+                        No
+                    </td>
+                </tr>
+                <tr class="evenRow">
+                    <td>
+                        Windows Server 2008 R2
+                    </td>
+                    <td>
+                        No
+                    </td>
+                </tr>
+                <tr class="oddRow">
+                    <td>
+                        Windows Server 2008
+                    </td>
+                    <td>
+                        Yes
+                    </td>
+                </tr>
+                <tr class="evenRow">
+                    <td>
+                        Windows Server 2003
+                    </td>
+                    <td>
+                        No
+                    </td>
+                </tr>
+                <tr class="oddRow">
+                    <td>
+                        Windows Server 2016
+                    </td>
+                    <td>
+                        No
+                    </td>
+                </tr>
+                <tr class="evenRow">
+                    <td>
+                        Windows 8
+                    </td>
+                    <td>
+                        No
+                    </td>
+                </tr>
+                <tr class="oddRow">
+                    <td>
+                        Windows 7
+                    </td>
+                    <td>
+                        Yes
+                    </td>
+                </tr>
+                <tr class="evenRow">
+                    <td>
+                        Windows Vista
+                    </td>
+                    <td>
+                        No
+                    </td>
+                </tr>
+                <tr class="oddRow">
+                    <td>
+                        Windows XP
+                    </td>
+                    <td>
+                        No
+                    </td>
+                </tr>
+                <tr class="evenRow">
+                    <td>
+                        Windows 2000
+                    </td>
+                    <td>
+                        No
+                    </td>
+                </tr>
+        </tbody></table>
+    </div>
