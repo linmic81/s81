@@ -1,0 +1,15 @@
+Install Jenkins
+
+In this blog, I will guide you through the installation process of Jenkins. Just follow the below steps to install Jenkins along with its suggested plugins. In case you are curious to know more about Jenkins, click here to find all the necessary details.
+
+The complete process to install Jenkins can be summarized in five steps:
+
+    Install Java Version 8 – Jenkins is a Java based application, hence Java is a must.
+    Install Apache Tomcat Version 9 – Tomcat is required to deploy Jenkins war file.
+    Download Jenkins war File – This war is required to install Jenkins.
+    Deploy Jenkins war File – Jenkins war file needs to be deployed using Tomcat to run Jenkins.
+    Install Suggested Plugins – Install a list of plugins suggested by Jenkins.
+
+Note: These steps are for the CentOS operating system. In case you do not have a CentOS host machine you can install a CentOS VM to go ahead with the installation.
+
+Now before moving on, go through this Jenkins installation video from our Jenkins training expert.
