@@ -1,8 +1,14 @@
 
 https://www.whitebyte.info/programming/java/how-to-install-a-portable-jdk-in-windows-without-admin-rights
 
-For x64 the tools.zip can be found in .rsrc\1033\JAVA_CAB10\111\
+1. Download
+Download the JDK from Oracle
 
+2. Extract
+If you want to use the x86 version simply open the .exe file with 7-Zip. 
+It contains a single file tools.zip, which contains all the files we need.
+
+For x64 the tools.zip can be found in .rsrc\1033\JAVA_CAB10\111\
 Extract the tools.zip to the desired JDK directory (e.g. “D:\JavaJDK\”).
 
 3. Unpack
@@ -10,3 +16,5 @@ Now we need to unpack a few files packed with pack200. We do that by executing t
 inside the root of the JDK directory (e.g. “D:\JavaJDK\”):
 
 for /R %f in (.\*.pack) do @"%cd%\bin\unpack200" -r -v -l "" "%f" "%~pf%~nf.jar"
+
+Congrats you now have a working, portable JDK!
