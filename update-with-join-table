@@ -1,0 +1,38 @@
+-- Option 01
+
+UPDATE p
+SET    p.category = c.category
+FROM   products p
+       INNER JOIN prodductcatagories pg
+            ON  p.productid = pg.productid
+       INNER JOIN categories c
+            ON  pg.categoryid = c.cateogryid
+WHERE  c.categories LIKE 'whole%'
+
+--EOQ
+
+-- Option 02
+-- One of the easiest way is to use a common table expression (since you're already on SQL 2005 or above):
+-- The query execution engine will figure out on its own how to update the record.
+
+with cte as (
+select
+    im.itemid
+    ,im.sku as iSku
+    ,gm.SKU as GSKU
+    ,mm.ManufacturerId as ManuId
+    ,mm.ManufacturerName
+    ,im.mf_item_number
+    ,mm.ManufacturerID
+    , <your other field>
+from 
+    item_master im, group_master gm, Manufacturer_Master mm 
+where
+    im.mf_item_number like 'STA%'
+    and im.sku=gm.sku
+    and gm.ManufacturerID = mm.ManufacturerID
+    and gm.manufacturerID=34)
+update cte set mf_item_number = <your other field>
+
+
+--EOQ
