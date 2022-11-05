@@ -1,0 +1,21 @@
+# top 1 by group
+;WITH cte AS
+(
+   SELECT *,
+         ROW_NUMBER() OVER (PARTITION BY DocumentID ORDER BY DateCreated DESC) AS rn
+   FROM DocumentStatusLogs
+)
+SELECT *
+FROM cte
+WHERE rn = 1
+
+#
+SELECT * FROM 
+(
+    SELECT ID, Category, 
+    SubCategory,
+    Amount,
+    ROW_NUMBER() OVER (PARTITION BY Category Order by Amount DESC) AS Sno# 
+    FROM dbo.CategoryMaster
+)RNK 
+WHERE Sno# <=3
